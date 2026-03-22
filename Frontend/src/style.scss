@@ -1,0 +1,19 @@
+@use "./styles/button.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #c9c6e8, #d8b4f8, #93c5fd);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.highlight{
+    color: #5b95dc;
+    font-weight: 600;
+}
